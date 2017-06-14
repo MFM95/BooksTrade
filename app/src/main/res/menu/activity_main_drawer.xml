@@ -7,6 +7,16 @@
             android:icon="@mipmap/ic_home_black"
             android:title="@string/nav_home" />
         <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/icon_profile"
+            android:title="@string/nav_profile" />
+        <item
+            android:id="@+id/nav_findBook"
+            android:title="@string/nav_findBook" />
+        <item
+            android:id="@+id/nav_offerBook"
+            android:title="@string/nav_offerBook" />
+        <item
             android:id="@+id/nav_notifications"
             android:icon="@mipmap/ic_notifications_black"
             android:title="@string/nav_notifications" />
@@ -16,12 +26,6 @@
             android:icon="@mipmap/ic_settings_black"
             android:title="@string/nav_settings" />
 
-        <item
-            android:id="@+id/nav_share"
-            android:icon="@mipmap/ic_share_black"
-            android:title="@string/nav_share" />
-
-
 
     </group>
 
@@ -29,10 +33,16 @@
         <menu>
             <item
                 android:id="@+id/nav_about_us"
+                android:icon="@mipmap/icon_about"
                 android:title="@string/nav_about_us" />
             <item
                 android:id="@+id/nav_privacy_policy"
+                android:icon="@mipmap/icon_privacy"
                 android:title="@string/privacy_policy" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/nav_logout" />
+
         </menu>
     </item>
 
